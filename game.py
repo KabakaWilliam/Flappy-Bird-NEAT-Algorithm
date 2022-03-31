@@ -29,6 +29,7 @@ class Bird:
     AnimationTime = 5 #how long to show bird animation
 
     def __init__(self, x, y):
+        # initialise appropriate variables
         self.x = x
         self.y = y
         self.tilt = 0
